@@ -1,0 +1,6 @@
+# GetCount.srv — сервис статистики сервера
+# Запрос пустой
+---
+# Ответ: сколько чисел и запросов обработал сервер
+int64 total_numbers_processed
+int64 total_requests

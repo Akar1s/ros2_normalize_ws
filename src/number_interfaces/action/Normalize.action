@@ -1,0 +1,9 @@
+# Goal: массив целых чисел, которые нужно нормализовать
+int32[] data
+---
+# Result: массив всех нормализованных чисел (MinMaxScaler)
+float64[] normalized_data
+---
+# Feedback: текущее нормализованное число и его индекс
+int32 index
+float64 current_value
